@@ -1,0 +1,3 @@
+presidio_analyzer~=2.2.33
+presidio_anonymizer~=2.2.33
+flair~=0.12.2
