@@ -16,4 +16,5 @@ This package includes a Python class for removing Personally Identifiable Inform
   6. `lower_case` (optional): A boolean indicating whether to convert words to lowercase before analysis or not.
 
 - The  `FlairRecognizer` class is based on the [sample code](https://github.com/microsoft/presidio/blob/main/docs/samples/python/flair_recognizer.py) provided by Presidio without much modification.
-- The final output is a CSV file. You can refer to the example Jupyter Notebook for guidance.
+- The final output is a CSV file. You can refer to the example Jupyter Notebook for guidance:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TRG-AI4Good/de-identifier/blob/main/example/example.ipynb)
