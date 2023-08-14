@@ -14,5 +14,5 @@ setup(
     license='MIT',
     author='Mohammad Askari',
     author_email='askari@ucla.edu',
-    description='About PII de-identification from a given CSV file using two NERs, spaCy and Flair'
+    description='PII de-identification from a given CSV file using two NERs, spaCy and Flair'
 )
