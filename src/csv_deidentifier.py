@@ -72,7 +72,7 @@ class CSVDeidentifier(BatchAnalyzerEngine, BatchAnonymizerEngine):
         # Convert the dictionary to a list of dictionaries (rows)
         rows = [dict(zip(headers, row)) for row in zip(*anonymizer_results.values())]
 
-        with open(self.output_csv_path, 'w') as csv_output_file:
+        with open(self.output_csv_path, 'w', newline='') as csv_output_file:
             writer = csv.DictWriter(csv_output_file, headers)
             writer.writeheader()  # Writing headers
             writer.writerows(rows)
